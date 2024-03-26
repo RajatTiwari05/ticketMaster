@@ -1,0 +1,46 @@
+.cardComponent{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    width:55rem;
+}
+.cardBody{
+    margin-top: 40px;
+}
+.cardBody a{
+    color: blue;
+}
+.cardComponent img{
+    width:25rem;
+    height: 50rem;
+}
+.cardBody{
+    margin-left: 4%;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+} 
+.inputBoxes{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 28px;
+    font-size: small;
+}
+.checkBox{
+    display: flex;
+    flex-direction: row;
+}
+.rememberText{
+    margin-left: 4px;
+    margin-right: 18px;
+    margin-top: 13px;
+}
+.forgetText{
+    margin-left: 100px;
+    margin-top: 13px;
+}
+.signIn{
+    width: 100px;
+    height: 40px;
+    margin-left: 350px;
+}

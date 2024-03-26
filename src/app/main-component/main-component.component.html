@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Master</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+      <div class="toolbar" role="banner">
+        <div class="links">
+          <h2 class="title">ticketmaster</h2>
+          <button class="toolbarButtons"><h5>Concerts</h5></button>
+          <button class="toolbarButtons"><h5>Sports</h5></button>
+          <button class="toolbarButtons"><h5>Arts & Theatre</h5></button>
+          <button class="toolbarButtons"><h5>Family</h5></button>
+          <mat-icon class="registerIcon">home</mat-icon>
+          <button class="registerButton" routerLink="/login"><h5>Sign In/Register</h5></button>
+          </div>
+        <div class="searchBar">
+          <input class="pincode" type="text" placeholder="City or Zip Code" pattern="[0-9]{6}" maxlength="6">
+          
+            <input type="date" class="allDates" name="endDate" id="endDate" placeholder="All Dates">
+         
+          
+          <input class="searchBarr" type="search" placeholder="search by Artist,Event or Venue">
+          <button class="searchButton">Search</button>
+        </div>
+      </div>
+      <div class="content" role="main">
+        <div class="imageContent">
+          <img class="img-fluid" src="assets/img/nature2.jpg">
+          <span><h5>Nature Heels</h5>
+          <p>Nature</p></span>
+          <button type="button" class="btn btn-primary">Find Ticket</button>
+        </div>
+        <div class="cardsSection">
+          <div class="cards1">
+            <div class="card">
+              <img src="assets/img/nature3.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Nature heels everything</h5>
+                <p class="card-text">Nature</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/img/nature1.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Nature heels everything</h5>
+                <p class="card-text">Nature</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/img/nature2.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Nature heels everything</h5>
+                <p class="card-text">Nature</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="card">
+              <img src="assets/img/nature1.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Nature heels everything</h5>
+                <p class="card-text">Nature</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/img/nature2.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Nature heels everything</h5>
+                <p class="card-text">Nature</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/img/nature3.jpg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Nature heels everything</h5>
+                <p class="card-text">Nature</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+<router-outlet></router-outlet>
